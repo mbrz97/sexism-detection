@@ -17,10 +17,14 @@ In this section, we look into the methodology adopted in this research, detailin
 
 ## 2.1	Dataset
 The dataset utilized in this research was sourced from the EDOS project, comprising two datasets with labels, alongside two unlabelled datasets from Reddit and Gab platforms. The labeled datasets contain text entries annotated with labels indicating whether the content is sexist or not. Edos_labelled_individual_annotations contains multiple labels for each tweet, labeled by different people. We need to choose one of the labels for our task. 
-'edos_labelled_aggregated	20000 samples'
-'Edos_labelled_individual_annotations	60000 samples'
-'Reddit_1M_unlabelled	1000000 samples'
-'Gab_1M_unlabelled	1000000 samples'
+
+| Center-aligned | Center-aligned |
+|     :---:      |     :---:      |
+| edos_labelled_aggregated | 20000 |
+| Edos_labelled_individual_annotations | 60000 |
+| Reddit_1M_unlabelled | 1000000 |
+| Gab_1M_unlabelled | 1000000 |
+
 
 ## 2.2	Data Preprocessing
 To enhance the quality of the dataset and facilitate effective model training, the following preprocessing steps were undertaken:
