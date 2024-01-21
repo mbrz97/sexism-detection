@@ -18,7 +18,7 @@ In this section, we look into the methodology adopted in this research, detailin
 ## 2.1	Dataset
 The dataset utilized in this research was sourced from the EDOS project, comprising two datasets with labels, alongside two unlabelled datasets from Reddit and Gab platforms. The labeled datasets contain text entries annotated with labels indicating whether the content is sexist or not. Edos_labelled_individual_annotations contains multiple labels for each tweet, labeled by different people. We need to choose one of the labels for our task. 
 
-| Center-aligned | Center-aligned |
+| Dataset Name | No. of Samples |
 |     :---:      |     :---:      |
 | edos_labelled_aggregated | 20000 |
 | Edos_labelled_individual_annotations | 60000 |
@@ -116,7 +116,7 @@ To further validate the robustness of the developed models, they were tested on 
 - Accuracy on Edos_labelled_individual_annotations: 86.6%
 
 
-# 4.	Conclusion
+# 4. Conclusion
 In this study, we embarked on the intricate journey of developing and analyzing deep learning models to detect sexist content in text data, a pressing issue in the contemporary digital landscape. Through meticulous data preprocessing and feature engineering, we prepared the ground for training robust models, including LSTM, attention mechanism models, and a pre-trained BERT model, each bringing a unique approach to the table.
 The results, albeit with blanks awaiting precise figures, indicate a promising direction in leveraging deep learning architectures for sexism detection. Each model, with its distinct architecture, has demonstrated its potential in understanding and classifying text data effectively. The comparative analysis, visualized through the ROC curve plot, will offer a detailed perspective on the performance of each model, guiding future endeavors in this research domain.
 Moreover, the external validation on Edos_labelled_individual_annotations stands as a testament to the models' robustness, showcasing their ability to generalize and maintain performance on unseen data. This step is crucial in ensuring the models' applicability in real-world scenarios, where the diversity and complexity of data are much higher.
