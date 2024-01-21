@@ -132,8 +132,8 @@ In conclusion, this research marks a significant step towards creating a safer a
 
 
 # References
-[1]	https://codalab.lisn.upsaclay.fr/competitions/7124#learn_the_details
-[2]	Detection of Hate Speech using BERT and Hate Speech Word Embedding with Deep Model, Hind Saleh (2023), Applied Artificial Intelligence
-[3]	A Framework for Hate Speech Detection Using Deep CNN, Pradeep Kumar Roy (2020), IEEE Access
-[4]	A deep neural network-based multi-task learning approach to hate speech detection, Prashan Kapil (2020), Knowledge-Based Systems
-[5]	Effective hate-speech detection in Twitter data using recurrent neural networks, Georgios K. Pitsilis (2018), Springer Science+Business Media
+1- https://codalab.lisn.upsaclay.fr/competitions/7124#learn_the_details
+2- Detection of Hate Speech using BERT and Hate Speech Word Embedding with Deep Model, Hind Saleh (2023), Applied Artificial Intelligence
+3- A Framework for Hate Speech Detection Using Deep CNN, Pradeep Kumar Roy (2020), IEEE Access
+4- A deep neural network-based multi-task learning approach to hate speech detection, Prashan Kapil (2020), Knowledge-Based Systems
+5- Effective hate-speech detection in Twitter data using recurrent neural networks, Georgios K. Pitsilis (2018), Springer Science+Business Media
