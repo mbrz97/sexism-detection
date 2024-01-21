@@ -72,6 +72,9 @@ To get the robustness of the developed models, they were validated using an exte
 
 # 3.	Results
 In this section, we present the results obtained from the evaluation of the developed models on the test set derived from Edos_labelled_aggregated, as well as their performance on the external validation set, Edos_labelled_individual_annotations. The results are described based on the evaluation metrics - accuracy and ROC-AUC score, providing a comprehensive view of each model's performance.
+
+> Training and Validation Accuracy and ROC Curves can be found in the PDF file included in the repo.
+
 ## 3.1	Model Performance on Test Set
 ### 3.1.1 LSTM Model
 The LSTM model showed a promising performance in classifying the texts into sexist and non-sexist categories. The accuracy and ROC-AUC score achieved on the test set are as follows:
@@ -111,17 +114,6 @@ To further validate the robustness of the developed models, they were tested on 
 - Loss on Edos_labelled_individual_annotations: 0.61%
 ### 3.3.3 BERT Model
 - Accuracy on Edos_labelled_individual_annotations: 86.6%
-
-![Figure 3 – LSTM Model training and validation loss](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture3.png)
-![Figure 4 – LSTM Model training and validation accuracy](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture4.png)
-![Figure 5 - ROC Curve for the LSTM model](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture5.png)
-![Figure 6 - Simple attention model training and validation loss](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture6.png)
-![Figure 7 - Simple attention model training and validation accuracy](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture7.png)
-![Figure 8 - ROC curve for the attention model with bidirectional LSTM and early stopping](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture8.png)
-![Figure 9 - Attention model with bidirectional LSTM and early stopping, training and validation loss](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture9.png)
-![Figure 10 - Attention model with bidirectional LSTM and early stopping, training, and validation accuracy](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture10.png)
-![Figure 11 - ROC curve for the BERT model](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture11.png)
-![Figure 12 - Comparative ROC curve for the three models](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture12.png)
 
 
 # 4.	Conclusion
