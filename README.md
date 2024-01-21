@@ -33,6 +33,9 @@ To enhance the quality of the dataset and facilitate effective model training, t
 - Text Cleaning: The NLTK library facilitated the removal of stopwords and punctuation, followed by tokenization to break the text into individual words or terms.
 - Splitting data into train, test and validation set: 20% of the data is taken as the test set, 16% is taken for the validation set, and 64% is taken for the training set.
 
+![Figure 1 - The data processing pipeline](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture1.png)
+
+
 ## 2.3	Feature Engineering
 Post-preprocessing, the cleaned texts underwent feature engineering to prepare them for model training:
 - Tokenization and Sequencing: The texts were tokenized and transformed into sequences of integers using Keras' Tokenizer, with a fixed vocabulary size of 10,000 words.
@@ -64,6 +67,8 @@ The models were evaluated based on their performance on a test set derived from 
 - ROC-AUC Score: The area under the receiver operating characteristic curve, providing an aggregate measure of the model's performance across various classification thresholds.
 ## 2.6 External Validation
 To get the robustness of the developed models, they were validated using an external dataset, Edos_labelled_individual_annotations, undergoing similar preprocessing and feature engineering steps as Edos_labelled_aggregated.
+
+![Figure 2 - The overall procedure flowchart. sequentially representing the progression from data preparation to pre-processing, tokenization, training different models (LSTM, attention mechanisms, and BERT), and finally evaluating and comparing these models using various metrics, followed by testing on a second dataset before reaching the end.](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture2.png)
 
 # 3.	Results
 In this section, we present the results obtained from the evaluation of the developed models on the test set derived from Edos_labelled_aggregated, as well as their performance on the external validation set, Edos_labelled_individual_annotations. The results are described based on the evaluation metrics - accuracy and ROC-AUC score, providing a comprehensive view of each model's performance.
@@ -106,6 +111,18 @@ To further validate the robustness of the developed models, they were tested on 
 - Loss on Edos_labelled_individual_annotations: 0.61%
 ### 3.3.3 BERT Model
 - Accuracy on Edos_labelled_individual_annotations: 86.6%
+
+![Figure 3 – LSTM Model training and validation loss](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture3.png)
+![Figure 4 – LSTM Model training and validation accuracy](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture4.png)
+![Figure 5 - ROC Curve for the LSTM model](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture5.png)
+![Figure 6 - Simple attention model training and validation loss](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture6.png)
+![Figure 7 - Simple attention model training and validation accuracy](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture7.png)
+![Figure 8 - ROC curve for the attention model with bidirectional LSTM and early stopping](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture8.png)
+![Figure 9 - Attention model with bidirectional LSTM and early stopping, training and validation loss](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture9.png)
+![Figure 10 - Attention model with bidirectional LSTM and early stopping, training, and validation accuracy](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture10.png)
+![Figure 11 - ROC curve for the BERT model](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture11.png)
+![Figure 12 - Comparative ROC curve for the three models](https://github.com/mbrz97/sexism-detection/blob/main/Figures/Picture12.png)
+
 
 # 4.	Conclusion
 In this study, we embarked on the intricate journey of developing and analyzing deep learning models to detect sexist content in text data, a pressing issue in the contemporary digital landscape. Through meticulous data preprocessing and feature engineering, we prepared the ground for training robust models, including LSTM, attention mechanism models, and a pre-trained BERT model, each bringing a unique approach to the table.
